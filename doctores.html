@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nuestro equipo médico - Veterinaria">
+    <meta name="keywords" content="veterinarios, doctores, equipo médico, especialistas veterinarios">
+    <meta name="author" content="Santiago. A. Murillo, Leandro Mardesich, Adrian Torrico">
+    <title>Veterinaria - Nuestros Doctores</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="home-page">
+    <header class="header-custom">
+        <div class="container d-flex align-items-center justify-content-between py-2">
+            <div class="d-flex align-items-center">
+                <img src="image/galeria/ChatGPT Image 4 abr 2025, 17_08_47.png" alt="Veterinaria Patitas Logo"
+                    class="logo img-fluid" style="max-width: 100px;">
+                <h1 class="ms-3 mb-0">Veterinaria Patitas</h1>
+            </div>
+            <nav id="menu" class="navbar navbar-expand-lg navbar-light shadow-sm">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+
+                        <li class="nav-item"><a class="nav-link" href="pacientes.html">Pacientes</a></li>
+
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="doctors-intro" class="my-5 text-center">
+            <h2 class="doctor-title">Nuestro Equipo Médico</h2>
+            <p class="lead">Contamos con un equipo de profesionales altamente calificados dedicados al cuidado y
+                bienestar de tus mascotas.</p>
+        </section>
+
+        <section id="doctor-team" class="my-5">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="doctor-card">
+                        <div class="doctor-image">
+                            <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d"
+                                alt="Dr. Carlos Rodríguez" class="img-fluid rounded-circle doctor-img">
+                        </div>
+                        <div class="doctor-info">
+                            <h3>Dr. Carlos Rodríguez</h3>
+                            <p class="doctor-specialty">Medicina General y Cirugía</p>
+                            <p>Especialista con más de 15 años de experiencia en medicina veterinaria general y
+                                procedimientos quirúrgicos.</p>
+                            <button class="btn doctor-btn" data-bs-toggle="modal" data-bs-target="#doctorModal1">Ver
+                                perfil completo</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="doctor-card">
+                        <div class="doctor-image">
+                            <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09"
+                                alt="Dra. María López" class="img-fluid rounded-circle doctor-img">
+                        </div>
+                        <div class="doctor-info">
+                            <h3>Dra. María López</h3>
+                            <p class="doctor-specialty">Dermatología y Alergias</p>
+                            <p>Especialista en problemas dermatológicos y alergias en mascotas. Certificada en
+                                dermatología veterinaria avanzada.</p>
+                            <button class="btn doctor-btn" data-bs-toggle="modal" data-bs-target="#doctorModal2">Ver
+                                perfil completo</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="doctor-card">
+                        <div class="doctor-image">
+                            <img src="https://images.unsplash.com/photo-1537368910025-700350fe46c7"
+                                alt="Dr. Javier Mendoza" class="img-fluid rounded-circle doctor-img">
+                        </div>
+                        <div class="doctor-info">
+                            <h3>Dr. Javier Mendoza</h3>
+                            <p class="doctor-specialty">Cardiología y Medicina Interna</p>
+                            <p>Especialista en diagnóstico y tratamiento de enfermedades cardíacas y problemas internos
+                                complejos.</p>
+                            <button class="btn doctor-btn" data-bs-toggle="modal" data-bs-target="#doctorModal3">Ver
+                                perfil completo</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="doctor-card">
+                        <div class="doctor-image">
+                            <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2"
+                                alt="Dra. Ana Gutiérrez" class="img-fluid rounded-circle doctor-img">
+                        </div>
+                        <div class="doctor-info">
+                            <h3>Dra. Ana Gutiérrez</h3>
+                            <p class="doctor-specialty">Ortopedia y Traumatología</p>
+                            <p>Especialista en problemas osteoarticulares, fracturas y rehabilitación física en
+                                mascotas.</p>
+                            <button class="btn doctor-btn" data-bs-toggle="modal" data-bs-target="#doctorModal4">Ver
+                                perfil completo</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="doctor-card">
+                        <div class="doctor-image">
+                            <img src="https://images.unsplash.com/photo-1582750433449-648ed127bb54"
+                                alt="Dr. Roberto Salazar" class="img-fluid rounded-circle doctor-img">
+                        </div>
+                        <div class="doctor-info">
+                            <h3>Dr. Roberto Salazar</h3>
+                            <p class="doctor-specialty">Odontología Veterinaria</p>
+                            <p>Experto en salud dental de mascotas, procedimientos odontológicos y prevención de
+                                enfermedades bucales.</p>
+                            <button class="btn doctor-btn" data-bs-toggle="modal" data-bs-target="#doctorModal5">Ver
+                                perfil completo</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="doctor-card">
+                        <div class="doctor-image">
+                            <img src="https://images.unsplash.com/photo-1594824476967-48c8b964273f"
+                                alt="Dra. Patricia Vargas" class="img-fluid rounded-circle doctor-img">
+                        </div>
+                        <div class="doctor-info">
+                            <h3>Dra. Patricia Vargas</h3>
+                            <p class="doctor-specialty">Animales Exóticos</p>
+                            <p>Especialista en el cuidado y tratamiento de aves, reptiles, pequeños mamíferos y otras
+                                mascotas no convencionales.</p>
+                            <button class="btn doctor-btn" data-bs-toggle="modal" data-bs-target="#doctorModal6">Ver
+                                perfil completo</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <style>
+        .doctor-img {
+            width: 150px;
+            /* Fija el ancho a 150px */
+            height: 150px;
+            /* Fija la altura a 150px */
+            object-fit: cover;
+            /* Recorta la imagen para que cubra el área cuadrada */
+            object-position: center;
+            /* Asegura que el centro de la imagen esté en el área visible */
+        }
+    </style>
+
+
+    </section>
+
+    <section id="schedule" class="my-5">
+        <h2 class="doctor-title text-center mb-4">Horarios de Consulta</h2>
+        <div class="table-responsive">
+            <table class="table table-hover schedule-table">
+                <thead>
+                    <tr>
+                        <th>Doctor</th>
+                        <th>Lunes</th>
+                        <th>Martes</th>
+                        <th>Miércoles</th>
+                        <th>Jueves</th>
+                        <th>Viernes</th>
+                        <th>Sábado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Dr. Carlos Rodríguez</td>
+                        <td>8:00 - 14:00</td>
+                        <td>14:00 - 20:00</td>
+                        <td>8:00 - 14:00</td>
+                        <td>14:00 - 20:00</td>
+                        <td>8:00 - 14:00</td>
+                        <td>8:00 - 12:00</td>
+                    </tr>
+                    <tr>
+                        <td>Dra. María López</td>
+                        <td>14:00 - 20:00</td>
+                        <td>8:00 - 14:00</td>
+                        <td>14:00 - 20:00</td>
+                        <td>8:00 - 14:00</td>
+                        <td>14:00 - 20:00</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>Dr. Javier Mendoza</td>
+                        <td>8:00 - 14:00</td>
+                        <td>-</td>
+                        <td>8:00 - 14:00</td>
+                        <td>8:00 - 14:00</td>
+                        <td>8:00 - 14:00</td>
+                        <td>8:00 - 12:00</td>
+                    </tr>
+                    <tr>
+                        <td>Dra. Ana Gutiérrez</td>
+                        <td>-</td>
+                        <td>8:00 - 14:00</td>
+                        <td>14:00 - 20:00</td>
+                        <td>8:00 - 14:00</td>
+                        <td>14:00 - 20:00</td>
+                        <td>10:00 - 14:00</td>
+                    </tr>
+                    <tr>
+                        <td>Dr. Roberto Salazar</td>
+                        <td>14:00 - 20:00</td>
+                        <td>14:00 - 20:00</td>
+                        <td>-</td>
+                        <td>14:00 - 20:00</td>
+                        <td>8:00 - 14:00</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>Dra. Patricia Vargas</td>
+                        <td>9:00 - 15:00</td>
+                        <td>9:00 - 15:00</td>
+                        <td>9:00 - 15:00</td>
+                        <td>-</td>
+                        <td>9:00 - 15:00</td>
+                        <td>9:00 - 13:00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="schedule-note text-center mt-3">
+            <p>Para agendar una cita, puede llamar al número <strong>+591 12345678</strong> o utilizar nuestro <span
+                    class="reservation-link" id="openReservationForm">formulario de reservas</span>.</p>
+        </div>
+    </section>
+    </div>
+
+    <!-- Modales de información de doctores -->
+    <!-- Modal Doctor 1 -->
+    <div class="modal fade" id="doctorModal1" tabindex="-1" aria-labelledby="doctorModal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="doctorModal1Label">Dr. Carlos Rodríguez</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d"
+                                alt="Dr. Carlos Rodríguez" class="img-fluid rounded mb-3">
+                        </div>
+                        <div class="col-md-8">
+                            <h4>Medicina General y Cirugía</h4>
+                            <p><strong>Formación:</strong> Universidad Mayor de San Simón, Especialización en Cirugía
+                                Veterinaria en la Universidad de Santiago de Chile.</p>
+                            <p><strong>Experiencia:</strong> 15 años de experiencia clínica. Ha realizado más de 3,000
+                                procedimientos quirúrgicos.</p>
+                            <p><strong>Áreas de especialidad:</strong> Cirugía de tejidos blandos, traumatología básica,
+                                procedimientos abdominales y medicina preventiva.</p>
+                            <p><strong>Idiomas:</strong> Español, Inglés, Portugués básico</p>
+                            <p><strong>Publicaciones:</strong> Autor de "Protocolos actualizados en cirugía veterinaria
+                                de pequeños animales" y diversos artículos en revistas especializadas.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn doctor-btn" id="appointmentBtn1">Solicitar cita</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Doctor 2 -->
+    <div class="modal fade" id="doctorModal2" tabindex="-1" aria-labelledby="doctorModal2Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="doctorModal2Label">Dra. María López</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09"
+                                alt="Dra. María López" class="img-fluid rounded mb-3">
+                        </div>
+                        <div class="col-md-8">
+                            <h4>Dermatología y Alergias</h4>
+                            <p><strong>Formación:</strong> Universidad Autónoma Gabriel René Moreno, Especialización en
+                                Dermatología Veterinaria en la Universidad de Buenos Aires.</p>
+                            <p><strong>Experiencia:</strong> 12 años especializada en problemas dermatológicos y
+                                alergias en pequeños animales.</p>
+                            <p><strong>Áreas de especialidad:</strong> Diagnóstico y tratamiento de alergias,
+                                enfermedades cutáneas, problemas de piel relacionados con hormonas y nutrición.</p>
+                            <p><strong>Idiomas:</strong> Español, Inglés, Francés</p>
+                            <p><strong>Publicaciones:</strong> Coautora del libro "Dermatología Clínica en Animales de
+                                Compañía" y diversos estudios sobre alergias alimentarias.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn doctor-btn" id="appointmentBtn2">Solicitar cita</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Doctor 3 -->
+    <div class="modal fade" id="doctorModal3" tabindex="-1" aria-labelledby="doctorModal3Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="doctorModal3Label">Dr. Javier Mendoza</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="https://images.unsplash.com/photo-1537368910025-700350fe46c7"
+                                alt="Dr. Javier Mendoza" class="img-fluid rounded mb-3">
+                        </div>
+                        <div class="col-md-8">
+                            <h4>Cardiología y Medicina Interna</h4>
+                            <p><strong>Formación:</strong> Universidad San Francisco Xavier, Especialización en
+                                Cardiología Veterinaria en la Universidad de Buenos Aires.</p>
+                            <p><strong>Experiencia:</strong> 10 años de experiencia en diagnóstico y tratamiento de
+                                enfermedades cardíacas y pulmonares.</p>
+                            <p><strong>Áreas de especialidad:</strong> Enfermedades cardíacas congénitas y adquiridas,
+                                hipertensión, insuficiencia cardíaca y medicina interna avanzada.</p>
+                            <p><strong>Idiomas:</strong> Español, Inglés, Alemán</p>
+                            <p><strong>Publicaciones:</strong> Coautor de varios estudios sobre cardiomiopatía felina y
+                                enfermedades cardiovasculares en razas caninas.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn doctor-btn" id="appointmentBtn3">Solicitar cita</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Doctor 4 -->
+    <div class="modal fade" id="doctorModal4" tabindex="-1" aria-labelledby="doctorModal4Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="doctorModal4Label">Dra. Ana Gutiérrez</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2"
+                                alt="Dra. Ana Gutiérrez" class="img-fluid rounded mb-3">
+                        </div>
+                        <div class="col-md-8">
+                            <h4>Ortopedia y Traumatología</h4>
+                            <p><strong>Formación:</strong> Universidad Mayor de San Andrés, Especialización en Ortopedia
+                                y Traumatología Veterinaria en la Universidad de Madrid.</p>
+                            <p><strong>Experiencia:</strong> 8 años de experiencia en tratamiento de problemas
+                                osteoarticulares y rehabilitación.</p>
+                            <p><strong>Áreas de especialidad:</strong> Cirugía ortopédica, tratamiento de fracturas
+                                complejas, terapia de rehabilitación y fisioterapia animal.</p>
+                            <p><strong>Idiomas:</strong> Español, Inglés, Italiano</p>
+                            <p><strong>Publicaciones:</strong> Autora de varios artículos sobre técnicas innovadoras en
+                                rehabilitación canina y felina.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn doctor-btn" id="appointmentBtn4">Solicitar cita</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Doctor 5 -->
+    <div class="modal fade" id="doctorModal5" tabindex="-1" aria-labelledby="doctorModal5Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="doctorModal5Label">Dr. Roberto Salazar</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="https://images.unsplash.com/photo-1582750433449-648ed127bb54"
+                                alt="Dr. Roberto Salazar" class="img-fluid rounded mb-3">
+                        </div>
+                        <div class="col-md-8">
+                            <h4>Odontología Veterinaria</h4>
+                            <p><strong>Formación:</strong> Universidad de San Simón, Especialización en Odontología
+                                Veterinaria en la Universidad de Sao Paulo.</p>
+                            <p><strong>Experiencia:</strong> 9 años especializado en salud dental de mascotas y
+                                procedimientos odontológicos avanzados.</p>
+                            <p><strong>Áreas de especialidad:</strong> Profilaxis dental, endodoncias, extracciones,
+                                tratamientos periodontales y ortodoncia veterinaria básica.</p>
+                            <p><strong>Idiomas:</strong> Español, Inglés, Portugués</p>
+                            <p><strong>Publicaciones:</strong> Contribuidor en manuales de odontología veterinaria y
+                                guías de cuidado dental para mascotas.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn doctor-btn" id="appointmentBtn5">Solicitar cita</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Doctor 6 -->
+    <div class="modal fade" id="doctorModal6" tabindex="-1" aria-labelledby="doctorModal6Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="doctorModal6Label">Dra. Patricia Vargas</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="https://images.unsplash.com/photo-1594824476967-48c8b964273f"
+                                alt="Dra. Patricia Vargas" class="img-fluid rounded mb-3">
+                        </div>
+                        <div class="col-md-8">
+                            <h4>Animales Exóticos</h4>
+                            <p><strong>Formación:</strong> Universidad Privada Boliviana, Especialización en Medicina y
+                                Cirugía de Animales Exóticos en la Universidad de Florida.</p>
+                            <p><strong>Experiencia:</strong> 11 años trabajando con especies no convencionales,
+                                incluyendo aves, reptiles y pequeños mamíferos.</p>
+                            <p><strong>Áreas de especialidad:</strong> Manejo clínico de reptiles, aves exóticas,
+                                pequeños roedores, hurones y otros mamíferos no tradicionales.</p>
+                            <p><strong>Idiomas:</strong> Español, Inglés</p>
+                            <p><strong>Publicaciones:</strong> Autora del libro "Guía práctica para el cuidado de
+                                mascotas exóticas" y varios artículos sobre nutrición especializada.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn doctor-btn" id="appointmentBtn6">Solicitar cita</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de Reserva de Cita -->
+    <div class="modal fade" id="reservationModal" tabindex="-1" aria-labelledby="reservationModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="reservationModalLabel">Reserva de Cita</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="appointmentForm">
+                        <div class="mb-3">
+                            <label for="petOwner" class="form-label">Nombre del Propietario:</label>
+                            <input type="text" class="form-control" id="petOwner" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="petName" class="form-label">Nombre de la Mascota:</label>
+                            <input type="text" class="form-control" id="petName" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="petType" class="form-label">Tipo de Mascota:</label>
+                            <select class="form-select" id="petType" required>
+                                <option value="">Seleccionar...</option>
+                                <option value="perro">Perro</option>
+                                <option value="gato">Gato</option>
+                                <option value="ave">Ave</option>
+                                <option value="roedor">Roedor</option>
+                                <option value="reptil">Reptil</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="doctorSelect" class="form-label">Doctor:</label>
+                            <select class="form-select" id="doctorSelect" required>
+                                <option value="">Seleccionar...</option>
+                                <option value="Dr. Carlos Rodríguez">Dr. Carlos Rodríguez</option>
+                                <option value="Dra. María López">Dra. María López</option>
+                                <option value="Dr. Javier Mendoza">Dr. Javier Mendoza</option>
+                                <option value="Dra. Ana Gutiérrez">Dra. Ana Gutiérrez</option>
+                                <option value="Dr. Roberto Salazar">Dr. Roberto Salazar</option>
+                                <option value="Dra. Patricia Vargas">Dra. Patricia Vargas</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="appointmentDate" class="form-label">Fecha Preferida:</label>
+                            <input type="date" class="form-control" id="appointmentDate" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="appointmentTime" class="form-label">Hora Preferida:</label>
+                            <select class="form-select" id="appointmentTime" required>
+                                <option value="">Seleccionar...</option>
+                                <option value="8:00">8:00</option>
+                                <option value="9:00">9:00</option>
+                                <option value="10:00">10:00</option>
+                                <option value="11:00">11:00</option>
+                                <option value="12:00">12:00</option>
+                                <option value="14:00">14:00</option>
+                                <option value="15:00">15:00</option>
+                                <option value="16:00">16:00</option>
+                                <option value="17:00">17:00</option>
+                                <option value="18:00">18:00</option>
+                                <option value="19:00">19:00</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="reason" class="form-label">Motivo de la Consulta:</label>
+                            <textarea class="form-control" id="reason" rows="3" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Reservar Cita</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
